@@ -5,7 +5,7 @@ A deep learning project that detects **Pneumonia from Chest X-Ray images** using
 
 
 ##  Dataset
-- **Source:** [Chest X-Ray Images (Pneumonia) — Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+- **Source:** [Chest X-Ray Images (Pneumonia) — Kaggle] (https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 - **Size:** 5,856 images
 - **Classes:** Normal vs Pneumonia
 - **Split:** Train / Validation / Test
@@ -24,6 +24,7 @@ A deep learning project that detects **Pneumonia from Chest X-Ray images** using
 
 ##  Project Structure
 chest-xray-pneumonia/
+
 ├── train_model.ipynb   
 ├── app.py              
 ├── requirements.txt    
