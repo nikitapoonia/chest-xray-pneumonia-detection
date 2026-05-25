@@ -1,37 +1,37 @@
- # 🫁 Chest X-Ray Pneumonia Detection
+ #  Chest X-Ray Pneumonia Detection
 
 A deep learning project that detects **Pneumonia from Chest X-Ray images** using CNN and Transfer Learning (VGG16).
 
----
 
-## 📊 Dataset
+
+##  Dataset
 - **Source:** [Chest X-Ray Images (Pneumonia) — Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 - **Size:** 5,856 images
 - **Classes:** Normal vs Pneumonia
 - **Split:** Train / Validation / Test
 
----
 
-## 🎯 Results
+
+##  Results
 
 | Metric | Score |
 |--------|-------|
 | Accuracy | ~90% |
-| AUC | ~0.95 |
+| AUC | ~0.93 |
 | Model | VGG16 Transfer Learning |
 
----
 
-## 🏗️ Project Structure
+
+##  Project Structure
 chest-xray-pneumonia/
-├── train_model.ipynb   # Full training code
-├── app.py              # Gradio web app
-├── requirements.txt    # Dependencies
+├── train_model.ipynb   
+├── app.py              
+├── requirements.txt    
 └── README.md
 
----
 
-## ⚙️ How It Works
+
+##  How It Works
 
 1. **Data Augmentation** — rotation, zoom, flip to increase variety
 2. **Transfer Learning** — VGG16 pre-trained on ImageNet
@@ -39,9 +39,9 @@ chest-xray-pneumonia/
 4. **Grad-CAM** — heatmap showing where model looks in the X-ray
 5. **Gradio App** — upload any X-ray and get instant prediction
 
----
 
-## 🧠 Key Concepts Used
+
+##  Key Concepts Used
 
 - Convolutional Neural Networks (CNN)
 - Transfer Learning (VGG16)
@@ -50,9 +50,9 @@ chest-xray-pneumonia/
 - Grad-CAM Explainability
 - EarlyStopping & ReduceLROnPlateau Callbacks
 
----
 
-## 🚀 Run Locally
+
+##  Run Locally
 
 ```bash
 # Install dependencies
@@ -62,24 +62,24 @@ pip install -r requirements.txt
 python app.py
 ```
 
----
 
-## 🖥️ Tech Stack
+
+##  Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 ![Gradio](https://img.shields.io/badge/Gradio-latest-purple)
 
----
 
-## 📌 Sample Grad-CAM Output
+
+##  Sample Grad-CAM Output
 
 > Red areas show where the model focuses to make its prediction.
 > For Pneumonia images, heatmap highlights infected lung regions.
 
----
 
-## 👩‍💻 Author
+
+##  Author
 **Nikita Poonia**
-- GitHub: [@nikitapoonia](https://github.com/nikitapoonia)
-- LinkedIn: [linkedin.com/in/nikitapoonia](https://linkedin.com/in/nikitapoonia)
+- GitHub: https://github.com/nikitapoonia/chest-xray-pneumonia-detection
+
