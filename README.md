@@ -83,4 +83,5 @@ python app.py
 ##  Author
 **Nikita Poonia**
 - GitHub: https://github.com/nikitapoonia/chest-xray-pneumonia-detection
+- Live Demo: https://huggingface.co/spaces/nikitapoonia/pneumonia-detector
 
